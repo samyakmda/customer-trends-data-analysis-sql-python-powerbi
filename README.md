@@ -57,12 +57,22 @@ Understanding customer shopping behavior is critical for improving retail strate
 customer-trends-data-analysis-sql-python-powerbi/
 │
 ├── README.md
-├── Customer_Shopping_Behavior_Analysis.ipynb
-├── Customer_Shopping_Behavior_Analysis.pdf
-├── customer_behavior_sql_queries.sql
-├── customer_shopping_behavior.csv
-├── customer_behavior_dashboard.pbix
-└── Customer-Shopping-Behavior-Analysis.pptx
+│
+├── notebooks/
+│   └── Customer_Shopping_Behavior_Analysis.ipynb
+│
+├── sql/
+│   └── customer_behavior_sql_queries.sql
+│
+├── data/
+│   └── customer_shopping_behavior.csv
+│
+├── dashboard/
+│   └── customer_behavior_dashboard.pbix
+│
+└── docs/
+    ├── Customer_Shopping_Behavior_Analysis.pdf
+    └── Customer-Shopping-Behavior-Analysis.pptx
 ```
 
 ---
@@ -127,6 +137,8 @@ customer-trends-data-analysis-sql-python-powerbi/
   - Revenue by Age Group and Sales by Age Group (bar charts)
   - Slicers: Subscription Status, Gender, Category, Shipping Type
 
+![image alt](PASTE_YOUR_DASHBOARD_IMAGE_URL_HERE)
+
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
 
@@ -136,15 +148,15 @@ git clone https://github.com/samyakmda/customer-trends-data-analysis-sql-python-
 ```
 2. Open and run the data cleaning and feature engineering notebook:
 ```
-Customer_Shopping_Behavior_Analysis.ipynb
+notebooks/Customer_Shopping_Behavior_Analysis.ipynb
 ```
 3. Load the cleaned data into PostgreSQL, then run the analysis queries:
 ```
-customer_behavior_sql_queries.sql
+sql/customer_behavior_sql_queries.sql
 ```
 4. Open the Power BI dashboard:
 ```
-customer_behavior_dashboard.pbix
+dashboard/customer_behavior_dashboard.pbix
 ```
 
 ---
