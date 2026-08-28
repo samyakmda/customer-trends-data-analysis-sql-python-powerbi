@@ -137,7 +137,7 @@ customer-trends-data-analysis-sql-python-powerbi/
   - Revenue by Age Group and Sales by Age Group (bar charts)
   - Slicers: Subscription Status, Gender, Category, Shipping Type
 
-![image alt](PASTE_YOUR_DASHBOARD_IMAGE_URL_HERE)
+![image alt](https://github.com/samyakmda/customer-trends-data-analysis-sql-python-powerbi/blob/d31c33927c465a5ef0ae526c26b2c4cb9cf0583e/Images/Screenshot%202026-08-28%20143752.png)
 
 ---
 <h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
